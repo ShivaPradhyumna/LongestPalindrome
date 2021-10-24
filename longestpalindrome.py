@@ -4,7 +4,7 @@ def palindrome(a):
     return 0
 
 
-user_input,lst = input("enter a string: "), []
+user_input, lst = input("enter a string: "), []
 for i in range(len(user_input)):
     if palindrome(user_input[i:user_input.rfind(user_input[i])+1]):
         lst.append(user_input[i:user_input.rfind(user_input[i])+1])
